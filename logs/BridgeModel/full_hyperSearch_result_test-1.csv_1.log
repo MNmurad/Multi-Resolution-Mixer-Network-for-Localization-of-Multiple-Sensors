@@ -1,0 +1,108 @@
+Args in experiment: Namespace(model='BridgeModel', task_name='long_term_forecast', root_path='./data/sensor/', data_path='test-1.csv', load_checkpoint=False, use_hyperParam_optim=False, no_decomposition=False, use_multi_gpu=False, n_jobs=1, seed=42, n_nodes=9, n_interrogators=2, test_cf_optimization=0, train_cf_optimization=0, seq_len=256, pred_len=1, d_model=16, tfactor=7, dfactor=7, wavelet='sym3', level=1, patch_len=16, stride=8, batch_size=32, learning_rate=0.00982476146087077, dropout=0.2, embedding_dropout=0.1, weight_decay=0.05, patience=12, train_epochs=60, label_len=0, seasonal_patterns='Monthly', features='M', checkpoints='./checkpoints/', cols=None, num_workers=0, itr=1, lradj='type3', use_amp=False, use_gpu=True, gpu=0, devices='0,1', embed=0, loss='mse', pct_start=0.2, inverse=True, optuna_seq_len=None, optuna_lr=None, optuna_batch=None, optuna_wavelet=None, optuna_tfactor=None, optuna_dfactor=None, optuna_epochs=None, optuna_dropout=None, optuna_embedding_dropout=None, optuna_patch_len=None, optuna_stride=None, optuna_lradj=None, optuna_dmodel=None, optuna_weight_decay=None, optuna_patience=None, optuna_level=None, optuna_trial_num=None, c_in=2, c_out=18)
+Use GPU: cuda:0
+train 8109
+train: 0
+train 8109
+val 2081
+Epoch 1: cost time: 2.16 sec
+	Epoch 1: Steps- 253 | Train Loss: 1.62882 Vali.MSE: 1.28219 Vali.MAE: 0.60539
+	Validation loss decreased (inf --> 1.282186).  Saving model ...
+Updating learning rate to 0.00982476146087077
+Epoch 2: cost time: 2.02 sec
+	Epoch 2: Steps- 253 | Train Loss: 1.42203 Vali.MSE: 7.61881 Vali.MAE: 1.59748
+	EarlyStopping counter: 1 out of 12
+Updating learning rate to 0.00982476146087077
+Epoch 3: cost time: 2.06 sec
+	Epoch 3: Steps- 253 | Train Loss: 1.34289 Vali.MSE: 3.99638 Vali.MAE: 1.18108
+	EarlyStopping counter: 2 out of 12
+Updating learning rate to 0.00982476146087077
+Epoch 4: cost time: 2.02 sec
+	Epoch 4: Steps- 253 | Train Loss: 1.30835 Vali.MSE: 2.54690 Vali.MAE: 0.90647
+	EarlyStopping counter: 3 out of 12
+Updating learning rate to 0.008842285314783694
+Epoch 5: cost time: 2.00 sec
+	Epoch 5: Steps- 253 | Train Loss: 1.28625 Vali.MSE: 2.68009 Vali.MAE: 0.97736
+	EarlyStopping counter: 4 out of 12
+Updating learning rate to 0.007958056783305325
+Epoch 6: cost time: 2.02 sec
+	Epoch 6: Steps- 253 | Train Loss: 1.27505 Vali.MSE: 2.97867 Vali.MAE: 1.00774
+	EarlyStopping counter: 5 out of 12
+Updating learning rate to 0.0071622511049747924
+Epoch 7: cost time: 1.99 sec
+	Epoch 7: Steps- 253 | Train Loss: 1.26576 Vali.MSE: 1.63190 Vali.MAE: 0.77104
+	EarlyStopping counter: 6 out of 12
+Updating learning rate to 0.006446025994477312
+Epoch 8: cost time: 1.99 sec
+	Epoch 8: Steps- 253 | Train Loss: 1.25252 Vali.MSE: 2.87046 Vali.MAE: 1.01623
+	EarlyStopping counter: 7 out of 12
+Updating learning rate to 0.005801423395029582
+Epoch 9: cost time: 1.98 sec
+	Epoch 9: Steps- 253 | Train Loss: 1.24468 Vali.MSE: 1.95019 Vali.MAE: 0.78074
+	EarlyStopping counter: 8 out of 12
+Updating learning rate to 0.005221281055526624
+Epoch 10: cost time: 2.02 sec
+	Epoch 10: Steps- 253 | Train Loss: 1.21907 Vali.MSE: 1.61272 Vali.MAE: 0.75831
+	EarlyStopping counter: 9 out of 12
+Updating learning rate to 0.004699152949973961
+Epoch 11: cost time: 2.06 sec
+	Epoch 11: Steps- 253 | Train Loss: 1.21555 Vali.MSE: 2.80218 Vali.MAE: 0.99807
+	EarlyStopping counter: 10 out of 12
+Updating learning rate to 0.0042292376549765654
+Epoch 12: cost time: 2.06 sec
+	Epoch 12: Steps- 253 | Train Loss: 1.19353 Vali.MSE: 0.87443 Vali.MAE: 0.57230
+	Validation loss decreased (1.282186 --> 0.874432).  Saving model ...
+Updating learning rate to 0.003806313889478909
+Epoch 13: cost time: 2.02 sec
+	Epoch 13: Steps- 253 | Train Loss: 1.19067 Vali.MSE: 0.58242 Vali.MAE: 0.46249
+	Validation loss decreased (0.874432 --> 0.582425).  Saving model ...
+Updating learning rate to 0.0034256825005310183
+Epoch 14: cost time: 2.04 sec
+	Epoch 14: Steps- 253 | Train Loss: 1.17897 Vali.MSE: 1.37194 Vali.MAE: 0.70074
+	EarlyStopping counter: 1 out of 12
+Updating learning rate to 0.0030831142504779163
+Epoch 15: cost time: 1.98 sec
+	Epoch 15: Steps- 253 | Train Loss: 1.17076 Vali.MSE: 0.78640 Vali.MAE: 0.52225
+	EarlyStopping counter: 2 out of 12
+Updating learning rate to 0.002774802825430125
+Epoch 16: cost time: 1.99 sec
+	Epoch 16: Steps- 253 | Train Loss: 1.16849 Vali.MSE: 1.26955 Vali.MAE: 0.66507
+	EarlyStopping counter: 3 out of 12
+Updating learning rate to 0.002497322542887112
+Epoch 17: cost time: 2.04 sec
+	Epoch 17: Steps- 253 | Train Loss: 1.15862 Vali.MSE: 0.74543 Vali.MAE: 0.50122
+	EarlyStopping counter: 4 out of 12
+Updating learning rate to 0.0022475902885984015
+Epoch 18: cost time: 2.01 sec
+	Epoch 18: Steps- 253 | Train Loss: 1.15474 Vali.MSE: 2.10124 Vali.MAE: 0.93309
+	EarlyStopping counter: 5 out of 12
+Updating learning rate to 0.002022831259738561
+Epoch 19: cost time: 2.00 sec
+	Epoch 19: Steps- 253 | Train Loss: 1.14626 Vali.MSE: 0.67368 Vali.MAE: 0.47175
+	EarlyStopping counter: 6 out of 12
+Updating learning rate to 0.001820548133764705
+Epoch 20: cost time: 2.00 sec
+	Epoch 20: Steps- 253 | Train Loss: 1.13667 Vali.MSE: 1.06479 Vali.MAE: 0.61667
+	EarlyStopping counter: 7 out of 12
+Updating learning rate to 0.0016384933203882346
+Epoch 21: cost time: 1.99 sec
+	Epoch 21: Steps- 253 | Train Loss: 1.13601 Vali.MSE: 6.42001 Vali.MAE: 1.59960
+	EarlyStopping counter: 8 out of 12
+Updating learning rate to 0.001474643988349411
+Epoch 22: cost time: 1.98 sec
+	Epoch 22: Steps- 253 | Train Loss: 1.13110 Vali.MSE: 1.03736 Vali.MAE: 0.60704
+	EarlyStopping counter: 9 out of 12
+Updating learning rate to 0.0013271795895144702
+Epoch 23: cost time: 1.99 sec
+	Epoch 23: Steps- 253 | Train Loss: 1.11917 Vali.MSE: 0.62956 Vali.MAE: 0.47112
+	EarlyStopping counter: 10 out of 12
+Updating learning rate to 0.0011944616305630232
+Epoch 24: cost time: 2.06 sec
+	Epoch 24: Steps- 253 | Train Loss: 1.10611 Vali.MSE: 0.74164 Vali.MAE: 0.50948
+	EarlyStopping counter: 11 out of 12
+Updating learning rate to 0.001075015467506721
+Epoch 25: cost time: 2.02 sec
+	Epoch 25: Steps- 253 | Train Loss: 1.11863 Vali.MSE: 0.65059 Vali.MAE: 0.46613
+	EarlyStopping counter: 12 out of 12
+	Early stopping
+test 1978
+Test-mse: 0.767201306145261, mae: 0.5152030919952878
