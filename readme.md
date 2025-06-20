@@ -1,9 +1,17 @@
 <h1 align="center">Multi-Resolution Mixer Network for Localization of Multiple Sensors from Cumulative Power Measurements</h1>
 <hr style="border: 1px solid  #256ae2 ;">
 
-### Paper Link: [IEEE-WCNC-2025](https:willbeadded.com), [ARXIV](https:willbeadded.com)
+
 ```bibtex
-Will be updated soon.
+@inproceedings{murad2025multi,
+  title={Multi-Resolution Mixer Network for Localization of Multiple Sensors from Cumulative Power Measurements},
+  author={Murad, Md Mahmuddun Nabi and Yirenya-Tawiah, Daniel Kwabena and Weller, Thomas and Yilmaz, Yasin},
+  booktitle={2025 IEEE Wireless Communications and Networking Conference (WCNC)},
+  pages={1--6},
+  year={2025},
+  organization={IEEE}
+}
+
 ```
 
 ## Get started
